@@ -3,6 +3,7 @@ import HTMLFlipBook from 'react-pageflip'
 import Page from './Page';
 import Cover from '../pages/Cover';
 import coverPic from "../assets/cover.png"
+import FirstPage from '../pages/FirstPage';
 
 function MyBook(props) {
   return (
@@ -12,7 +13,7 @@ function MyBook(props) {
          <Cover coverImg={coverPic} title="My Portfolio"/>
         </Page>
         <Page number={2}>
-          <div className="demoPage text-white text-3xl">Page 2</div>
+         <FirstPage/>
         </Page>
         <Page number={3}>
           <div className="demoPage text-white text-3xl">Page 3</div>

@@ -5,6 +5,8 @@ import Cover from '../pages/Cover';
 import coverPic from "../assets/cover.png"
 import FirstPage from '../pages/FirstPage';
 import SkillsPage from '../pages/SkillsPage';
+import ServicesPage from '../pages/ServicesPage';
+import AboutPage from '../pages/AboutPage';
 
 function MyBook(props) {
   return (
@@ -20,10 +22,10 @@ function MyBook(props) {
    <SkillsPage/>
         </Page>
         <Page number={4}>
-          <div className="demoPage text-white text-3xl">Page 4</div>
+    <ServicesPage/>
         </Page>
         <Page number={5}>
-          <div className="demoPage text-white text-3xl">Page 5</div>
+    <AboutPage/>
         </Page>
         <Page number={6}>
           <div className="demoPage text-white text-3xl">Page 6</div>

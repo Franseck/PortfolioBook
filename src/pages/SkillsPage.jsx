@@ -3,7 +3,7 @@ import SkillLevels from '../components/SkillLevels'
 
 const SkillsPage = () => {
   return (
-    <div className="h-full page-shadow bg-white px-10">
+    <div className="h-full page-shadow bg-gradient-to-r from-gray-100 to-neutral-400 px-10">
     <div>
       {/* heading */}
       <div>

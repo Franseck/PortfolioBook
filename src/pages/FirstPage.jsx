@@ -1,16 +1,16 @@
 import React from 'react'
-import firstPic from "../assets/man.jpg"
+import firstPic from "../assets/h1.jpg"
 
 const FirstPage = () => {
   return (
     <div className='h-full'>
-        <main className='h-full w-full bg-secondary page-shadow'>
-            <div className='p-10 space-y-4'>
+        <main className='h-full w-full bg-gradient-to-r from-gray-100 to-neutral-400 page-shadow'>
+            <div className='p-16 space-y-4'>
                 <div>
-<img src={firstPic} alt="developer" className='w-[300px] rounded-lg mx-auto '/>
+<img src={firstPic} alt="developer" className='w-[300px] rounded-lg mx-auto opacity-50'/>
                 </div>
             <div> 
-<div>
+<div className='mt-16'>
     <p>Hello ! </p>
     <p className='text-4xl md:text-6xl font-bold text-black/80'>I'm Seckin</p>
     <p className='text-blac/75'>Full Stack Developer</p>

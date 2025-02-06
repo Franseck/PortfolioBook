@@ -9,25 +9,25 @@ const ServicesData = [
       name: "Web Development",
       description: "Lorem ipsum dolor sit amet.",
       icon: <AiFillLayout className="text-4xl" />,
-      bgColor: "bg-blue-500/70",
+      bgColor: "bg-slate-800/60",
     },
     {
       name: "UI UX Design",
       description: "Lorem ipsum dolor sit.",
       icon: <MdOutlinePhoneAndroid className="text-4xl" />,
-      bgColor: "bg-lime-500/70",
+      bgColor: "bg-orange-300/40",
     },
     {
       name: "Freelance Photography & Videography",
       description: "Lorem ipsum dolor sit amet.",
       icon: <HiMiniComputerDesktop className="text-4xl" />,
-      bgColor: "bg-fuchsia-500/70",
+      bgColor: "bg-yellow-800/40",
     },
     {
       name: "Financial Advisor",
       description: "Lorem ipsum dolor sit amet consectetur.",
       icon: <MdSecurity className="text-4xl" />,
-      bgColor: "bg-orange-500/70",
+      bgColor: "bg-green-800/40",
     },
   ];
   const ServicesBox = () => {

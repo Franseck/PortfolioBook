@@ -4,7 +4,7 @@ import ProjectBox from '../components/ProjectBox'
 
 const ProjectsPage = ({ProjectData}) => {
   return (
-<div className="h-full page-shadow bg-white p-10">
+<div className="h-full page-shadow bg-gradient-to-r from-gray-100 to-neutral-400 p-10">
   
       <Header
         title="Projects"

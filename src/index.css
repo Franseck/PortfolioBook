@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nothing+You+Could+Do&family=Special+Elite&family=Handlee&family=Wallpoet&display=swap');
+
 
 @layer base {
     .font-outline-2 {
@@ -10,13 +12,7 @@
   }
   
   @layer components {
-    .primary-btn {
-      @apply inline-block bg-primary text-white cursor-pointer hover:bg-primary/80 py-2 px-4 my-3 rounded-lg;
-    }
-  
-    .outline-btn {
-      @apply inline-block ring-2 ring-primary inset-0 text-primary cursor-pointer hover:bg-primary/80 hover:text-white py-2 px-4 my-3 rounded-lg;
-    }
+
   
     .social-btn {
       @apply text-5xl hover:text-primary duration-200 cursor-pointer;

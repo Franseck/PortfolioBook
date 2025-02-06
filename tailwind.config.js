@@ -9,6 +9,12 @@ module.exports = {
           primary: "#818181",
           secondary: "bg-gradient-to-r from-gray-100 to-neutral-400",
     },
+    fontFamily:{
+      special : ["Special Elite"],
+      handle : ["Handlee"],
+         fred :["Fredericka the Great"],
+      nothing :["Nothing You Could Do"]
+    },
   },
   },
   plugins: [],

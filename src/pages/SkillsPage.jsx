@@ -5,19 +5,19 @@ const SkillsPage = () => {
   return (
     <div className="h-full page-shadow bg-gradient-to-r from-gray-100 to-neutral-400 px-10">
     <div>
-      {/* heading */}
+     
       <div>
-        <div className="relative ">
-          <div className="text-center text-5xl xl:text-8xl font-bold text-black/5 ">
+        <div className="relative  pt-8">
+          <div className="text-center text-4xl xl:text-7xl font-bold text-black/5 font-special">
             SKILLS
           </div>
-          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl md:text-3xl">
+          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl md:text-3xl font-special">
             Skills
           </h1>
         </div>
       </div>
 
-      <div className="space-y-6">
+      <div className="space-y-6 font-nothing">
           <SkillLevels skillName="HTML" percentage="90%" />
           <SkillLevels skillName="CSS" percentage="95%" />
           <SkillLevels skillName="JavaScript" percentage="85%" />

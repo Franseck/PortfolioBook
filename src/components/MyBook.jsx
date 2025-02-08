@@ -9,34 +9,38 @@ import SkillsPage from '../pages/SkillsPage';
 import ServicesPage from '../pages/ServicesPage';
 import AboutPage from '../pages/AboutPage';
 import ProjectsPage from '../pages/ProjectsPage';
+import coin from "../assets/coin2.png"
+import rest from "../assets/rest2.png"
+import recipe from "../assets/gastro.jpg"
+import travel from "../assets/tra2.png"
 
 
 const ProjectData = [
   {
-    name: "Car Rental website",
-    description: "Complete Responsive website using React js and Tailwind CSS",
-    image: "",
-    previewLink: "https://car-rental-tcj.netlify.app/",
+    name: "Crypto Coin Tracker",
+    description: "Complete Responsive website using React js and Styled Component 💅",
+    image: coin,
+    previewLink: "https://seckin-cryptoapp.vercel.app/",
   },
   {
-    name: "Restaurant website",
+    name: "Restaurant Website",
     description: "Complete Responsive website using React js and Tailwind CSS",
-    image: "",
-    previewLink: "https://foodies-zone.netlify.app/",
+    image: rest,
+    previewLink: "https://seckin-restaurant.vercel.app/",
   },
 ];
 const ProjectData2 = [
   {
-    name: "Ecommerce website",
-    description: "Complete Responsive website using React js and Tailwind CSS",
-    image: "",
-    previewLink: "https://shopsy-tcj.netlify.app/",
+    name: "Recipe Founder",
+    description: "Complete Responsive website using React js and  Styled Component 💅",
+    image: recipe,
+    previewLink: "https://seckin-gastroapp.vercel.app/",
   },
   {
-    name: "Travel website",
-    description: "Complete Responsive website using React js and Tailwind CSS",
-    image: "",
-    previewLink: "https://travel-tcj.netlify.app/",
+    name: "Travel Agency App",
+    description: "Complete Responsive website using HTML and Bootstrap",
+    image: travel,
+    previewLink: "https://seckin-travel-agency.vercel.app/",
   },
 ];
 

@@ -41,6 +41,33 @@ const ProjectData2 = [
     description: "Complete Responsive website using HTML and Bootstrap",
     image: travel,
     previewLink: "https://seckin-travel-agency.vercel.app/",
+  }
+];
+const ProjectData3 = [
+  {
+    name: "Recipe Founder",
+    description: "Complete Responsive website using React js and  Styled Component 💅",
+    image: recipe,
+    previewLink: "https://seckin-gastroapp.vercel.app/",
+  },
+  {
+    name: "Travel Agency App",
+    description: "Complete Responsive website using HTML and Bootstrap",
+    image: travel,
+    previewLink: "https://seckin-travel-agency.vercel.app/",
+  }];
+const ProjectData4 = [
+  {
+    name: "Recipe Founder",
+    description: "Complete Responsive website using React js and  Styled Component 💅",
+    image: recipe,
+    previewLink: "https://seckin-gastroapp.vercel.app/",
+  },
+  {
+    name: "Travel Agency App",
+    description: "Complete Responsive website using HTML and Bootstrap",
+    image: travel,
+    previewLink: "https://seckin-travel-agency.vercel.app/",
   },
 ];
 
@@ -71,6 +98,12 @@ function MyBook(props) {
       <ProjectsPage ProjectData={ProjectData2}/>
         </Page>
         <Page number={8}>
+      <ProjectsPage ProjectData={ProjectData3}/>
+        </Page>
+        <Page number={9}>
+      <ProjectsPage ProjectData={ProjectData4}/>
+        </Page>
+        <Page number={10}>
       <Cover coverImg={lastPic} title="Thanks"/>
         </Page>
          

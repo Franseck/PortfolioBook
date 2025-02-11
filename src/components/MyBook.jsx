@@ -13,6 +13,7 @@ import coin from "../assets/coin2.png"
 import rest from "../assets/rest2.png"
 import recipe from "../assets/gastro.jpg"
 import travel from "../assets/tra2.png"
+import stock from "../assets/stock.jpg"
 
 
 const ProjectData = [
@@ -45,16 +46,16 @@ const ProjectData2 = [
 ];
 const ProjectData3 = [
   {
-    name: "Recipe Founder",
-    description: "Complete Responsive website using React js and  Styled Component 💅",
-    image: recipe,
-    previewLink: "https://seckin-gastroapp.vercel.app/",
+    name: "Movie Founder",
+    description: "Complete Responsive website using React js Firebase, TailwindCss",
+    image: "",
+    previewLink: "https://seckin-movie.vercel.app/login",
   },
   {
-    name: "Travel Agency App",
-    description: "Complete Responsive website using HTML and Bootstrap",
-    image: travel,
-    previewLink: "https://seckin-travel-agency.vercel.app/",
+    name: "Stock App",
+    description: "Complete Responsive website using Material UI, Formik & Yup, MUI X-Data Grid , Redux Tool Kit, React Tremor, Axios,",
+    image: stock,
+    previewLink: "https://seckin-stockapp.vercel.app/",
   }];
 const ProjectData4 = [
   {

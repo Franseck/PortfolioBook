@@ -14,6 +14,8 @@ import rest from "../assets/rest2.png"
 import recipe from "../assets/gastro.jpg"
 import travel from "../assets/tra2.png"
 import stock from "../assets/stock.jpg"
+import LastPage from '../pages/LastPage';
+
 
 
 const ProjectData = [
@@ -104,7 +106,7 @@ function MyBook(props) {
         <Page number={9}>
       <ProjectsPage ProjectData={ProjectData4}/>
         </Page>
-        <Page number={10}>
+         <Page number={10}>
       <Cover coverImg={lastPic} title="Thanks"/>
         </Page>
          

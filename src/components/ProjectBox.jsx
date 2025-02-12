@@ -14,8 +14,8 @@ const ProjectBox = ({ ProjectData }) => {
               />
               {/* details section */}
               <div className="pt-3">
-                <h1 className="text-2xl font-semibold">{project.name}</h1>
-                <p className="line-clamp-2 text-gray-500">
+                <h1 className="text-xl font-semibold">{project.name}</h1>
+                <p className="line-clamp-2 text-sm text-gray-500">
                   {project.description}
                 </p>
                 < div className="mt-4 font-special">

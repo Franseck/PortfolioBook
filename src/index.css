@@ -14,11 +14,8 @@
   @layer components {
 
   
-    .social-btn {
-      @apply text-5xl hover:text-primary duration-200 cursor-pointer;
-    }
   
-    .page-shadow {
+    .shadow {
       @apply shadow-[inset_0_0_12px_rgba(0,0,0,0.6),14px_14px_14px_rgba(0,0,0,0.9)];
     }
   }

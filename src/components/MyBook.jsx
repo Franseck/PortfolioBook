@@ -2,7 +2,7 @@ import React from 'react'
 import HTMLFlipBook from 'react-pageflip'
 import Page from './Page';
 import Cover from '../pages/Cover';
-import coverPic from "../assets/Untitled.png"
+import coverPic from "../assets/qq.jpeg"
 import lastPic from "../assets/last-page.png"
 import FirstPage from '../pages/FirstPage';
 import SkillsPage from '../pages/SkillsPage';
@@ -80,7 +80,7 @@ function MyBook(props) {
       <HTMLFlipBook width={600} height={700} showCover="true">
 
         <Page number={1}>
-         <Cover coverImg={coverPic} />
+         <Cover coverImg={coverPic} shadow={200}/>
         </Page>
         <Page number={2}>
          <FirstPage/>
@@ -107,7 +107,7 @@ function MyBook(props) {
       <ProjectsPage ProjectData={ProjectData4}/>
         </Page>
          <Page number={10}>
-      <Cover coverImg={lastPic} title="Thanks"/>
+      <LastPage/>
         </Page>
          
       </HTMLFlipBook>

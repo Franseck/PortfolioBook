@@ -1,6 +1,6 @@
 import React from 'react'
 import ServicesBox from '../components/ServicesBox'
-import Header from '../components/Header'
+
 
 const ServicesPage = () => {
   return (

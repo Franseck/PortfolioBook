@@ -61,16 +61,16 @@ const ProjectData3 = [
   }];
 const ProjectData4 = [
   {
-    name: "Recipe Founder",
-    description: "Complete Responsive website using React js and  Styled Component 💅",
-    image: recipe,
-    previewLink: "https://seckin-gastroapp.vercel.app/",
+    name: "",
+    description: "Responsive website using React js, ",
+    image: "",
+    previewLink: "",
   },
   {
     name: "Travel Agency App",
-    description: "Complete Responsive website using HTML and Bootstrap",
-    image: travel,
-    previewLink: "https://seckin-travel-agency.vercel.app/",
+    description: "Responsive website using ",
+    image: "",
+    previewLink: "",
   },
 ];
 
